@@ -70,7 +70,7 @@ const DashboardIndex = () => {
             </Grid>
           </Card>
           <Card className="mt-4">
-            <h3 className="font-semibold mb-1 text-sm">Stats</h3>
+            <h3 className="font-semibold mb-1 text-sm">Your Balance</h3>
             <Grid className="w-full text-center gap-4 grid-cols-2">
               <div className="border w-full flex flex-col items-center justify-center border-primary-500 bg-black/40 rounded p-4">
                 <h3 className="text font-semibold">{numeral(10000).format("0,0")} Sol</h3>

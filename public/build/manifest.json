@@ -1,20 +1,20 @@
 {
-  "_MainLayout-D77shsTY.js": {
-    "file": "assets/MainLayout-D77shsTY.js",
+  "_MainLayout-D2goJQAV.js": {
+    "file": "assets/MainLayout-D2goJQAV.js",
     "name": "MainLayout",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
-  "_events-1aWfjLBR.js": {
-    "file": "assets/events-1aWfjLBR.js",
+  "_events-5s2vgVzm.js": {
+    "file": "assets/events-5s2vgVzm.js",
     "name": "events",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
-  "_index-CjvjsuVN.js": {
-    "file": "assets/index-CjvjsuVN.js",
+  "_index-CIbEea6R.js": {
+    "file": "assets/index-CIbEea6R.js",
     "name": "index",
     "isDynamicEntry": true,
     "imports": [
@@ -24,40 +24,40 @@
       "node_modules/@walletconnect/modal-ui/dist/index.js"
     ]
   },
-  "_index-Cu0X2BCC.js": {
-    "file": "assets/index-Cu0X2BCC.js",
+  "_index-D-cqeNyE.js": {
+    "file": "assets/index-D-cqeNyE.js",
     "name": "index",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_events-1aWfjLBR.js"
+      "_events-5s2vgVzm.js"
     ]
   },
   "node_modules/@walletconnect/ethereum-provider/dist/index.es.js": {
-    "file": "assets/index.es-BZAioj7R.js",
+    "file": "assets/index.es-Vulngka0.js",
     "name": "index.es",
     "src": "node_modules/@walletconnect/ethereum-provider/dist/index.es.js",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_events-1aWfjLBR.js"
+      "_events-5s2vgVzm.js"
     ],
     "dynamicImports": [
-      "_index-CjvjsuVN.js"
+      "_index-CIbEea6R.js"
     ]
   },
   "node_modules/@walletconnect/modal-ui/dist/index.js": {
-    "file": "assets/index-C7HTqMaw.js",
+    "file": "assets/index-BrKLRXLt.js",
     "name": "index",
     "src": "node_modules/@walletconnect/modal-ui/dist/index.js",
     "isDynamicEntry": true,
     "imports": [
-      "_index-CjvjsuVN.js",
+      "_index-CIbEea6R.js",
       "resources/js/app.jsx"
     ]
   },
   "node_modules/@web3modal/siwe/dist/esm/exports/index.js": {
-    "file": "assets/index-DOkiJ4Rc.js",
+    "file": "assets/index-Cby94Co8.js",
     "name": "index",
     "src": "node_modules/@web3modal/siwe/dist/esm/exports/index.js",
     "isDynamicEntry": true,
@@ -66,7 +66,7 @@
     ]
   },
   "node_modules/viem/_esm/utils/ccip.js": {
-    "file": "assets/ccip-CPhiMLfy.js",
+    "file": "assets/ccip-DAyDB9EU.js",
     "name": "ccip",
     "src": "node_modules/viem/_esm/utils/ccip.js",
     "isDynamicEntry": true,
@@ -75,30 +75,30 @@
     ]
   },
   "resources/js/Pages/Dashboard/DashboardIndex/DashboardIndex.jsx": {
-    "file": "assets/DashboardIndex-BdJNFBlL.js",
+    "file": "assets/DashboardIndex-CQqfFLal.js",
     "name": "DashboardIndex",
     "src": "resources/js/Pages/Dashboard/DashboardIndex/DashboardIndex.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_MainLayout-D77shsTY.js"
+      "_MainLayout-D2goJQAV.js"
     ]
   },
   "resources/js/Pages/Gateway/GatewayIndex/GatewayIndex.jsx": {
-    "file": "assets/GatewayIndex-CalzOC_l.js",
+    "file": "assets/GatewayIndex-CEI9JaCk.js",
     "name": "GatewayIndex",
     "src": "resources/js/Pages/Gateway/GatewayIndex/GatewayIndex.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_MainLayout-D77shsTY.js"
+      "_MainLayout-D2goJQAV.js"
     ],
     "css": [
       "assets/GatewayIndex-CPkfPft9.css"
     ]
   },
   "resources/js/app.jsx": {
-    "file": "assets/app-CsV65Vtf.js",
+    "file": "assets/app-DmZp1MRc.js",
     "name": "app",
     "src": "resources/js/app.jsx",
     "isEntry": true,
@@ -108,7 +108,7 @@
       "node_modules/@web3modal/siwe/dist/esm/exports/index.js",
       "node_modules/@web3modal/siwe/dist/esm/exports/index.js",
       "node_modules/@web3modal/siwe/dist/esm/exports/index.js",
-      "_index-Cu0X2BCC.js",
+      "_index-D-cqeNyE.js",
       "node_modules/@walletconnect/ethereum-provider/dist/index.es.js",
       "resources/js/Pages/Dashboard/DashboardIndex/DashboardIndex.jsx",
       "resources/js/Pages/Gateway/GatewayIndex/GatewayIndex.jsx"
