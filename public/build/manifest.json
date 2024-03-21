@@ -1,20 +1,29 @@
 {
-  "_MainLayout-BLqrgvR8.js": {
-    "file": "assets/MainLayout-BLqrgvR8.js",
+  "_MainLayout-D0gVc_5s.js": {
+    "file": "assets/MainLayout-D0gVc_5s.js",
     "name": "MainLayout",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
-  "_events-B7FY5u3_.js": {
-    "file": "assets/events-B7FY5u3_.js",
+  "_events-BSVZed26.js": {
+    "file": "assets/events-BSVZed26.js",
     "name": "events",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
-  "_index-BA8QldLt.js": {
-    "file": "assets/index-BA8QldLt.js",
+  "_index-BxDkwtOr.js": {
+    "file": "assets/index-BxDkwtOr.js",
+    "name": "index",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_events-BSVZed26.js"
+    ]
+  },
+  "_index-DMCJVmGF.js": {
+    "file": "assets/index-DMCJVmGF.js",
     "name": "index",
     "isDynamicEntry": true,
     "imports": [
@@ -24,40 +33,31 @@
       "node_modules/@walletconnect/modal-ui/dist/index.js"
     ]
   },
-  "_index-BOqGvBVy.js": {
-    "file": "assets/index-BOqGvBVy.js",
-    "name": "index",
-    "isDynamicEntry": true,
-    "imports": [
-      "resources/js/app.jsx",
-      "_events-B7FY5u3_.js"
-    ]
-  },
   "node_modules/@walletconnect/ethereum-provider/dist/index.es.js": {
-    "file": "assets/index.es-BMwveNzD.js",
+    "file": "assets/index.es-DzA7XJ_N.js",
     "name": "index.es",
     "src": "node_modules/@walletconnect/ethereum-provider/dist/index.es.js",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_events-B7FY5u3_.js"
+      "_events-BSVZed26.js"
     ],
     "dynamicImports": [
-      "_index-BA8QldLt.js"
+      "_index-DMCJVmGF.js"
     ]
   },
   "node_modules/@walletconnect/modal-ui/dist/index.js": {
-    "file": "assets/index-C3P_3dIS.js",
+    "file": "assets/index-B6XhNwxI.js",
     "name": "index",
     "src": "node_modules/@walletconnect/modal-ui/dist/index.js",
     "isDynamicEntry": true,
     "imports": [
-      "_index-BA8QldLt.js",
+      "_index-DMCJVmGF.js",
       "resources/js/app.jsx"
     ]
   },
   "node_modules/@web3modal/siwe/dist/esm/exports/index.js": {
-    "file": "assets/index-DqnTtNq0.js",
+    "file": "assets/index-sqtcQpSb.js",
     "name": "index",
     "src": "node_modules/@web3modal/siwe/dist/esm/exports/index.js",
     "isDynamicEntry": true,
@@ -66,7 +66,7 @@
     ]
   },
   "node_modules/viem/_esm/utils/ccip.js": {
-    "file": "assets/ccip-DcBqrs7X.js",
+    "file": "assets/ccip-D9F3n4uC.js",
     "name": "ccip",
     "src": "node_modules/viem/_esm/utils/ccip.js",
     "isDynamicEntry": true,
@@ -75,30 +75,30 @@
     ]
   },
   "resources/js/Pages/Dashboard/DashboardIndex/DashboardIndex.jsx": {
-    "file": "assets/DashboardIndex-BPkoYyeg.js",
+    "file": "assets/DashboardIndex-DocAv0FP.js",
     "name": "DashboardIndex",
     "src": "resources/js/Pages/Dashboard/DashboardIndex/DashboardIndex.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_MainLayout-BLqrgvR8.js"
+      "_MainLayout-D0gVc_5s.js"
     ]
   },
   "resources/js/Pages/Gateway/GatewayIndex/GatewayIndex.jsx": {
-    "file": "assets/GatewayIndex-BaGl5ts1.js",
+    "file": "assets/GatewayIndex-p1PLgZHc.js",
     "name": "GatewayIndex",
     "src": "resources/js/Pages/Gateway/GatewayIndex/GatewayIndex.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_MainLayout-BLqrgvR8.js"
+      "_MainLayout-D0gVc_5s.js"
     ],
     "css": [
       "assets/GatewayIndex-CPkfPft9.css"
     ]
   },
   "resources/js/app.jsx": {
-    "file": "assets/app-CraWNmOJ.js",
+    "file": "assets/app-Gsu6fIuP.js",
     "name": "app",
     "src": "resources/js/app.jsx",
     "isEntry": true,
@@ -108,13 +108,13 @@
       "node_modules/@web3modal/siwe/dist/esm/exports/index.js",
       "node_modules/@web3modal/siwe/dist/esm/exports/index.js",
       "node_modules/@web3modal/siwe/dist/esm/exports/index.js",
-      "_index-BOqGvBVy.js",
+      "_index-BxDkwtOr.js",
       "node_modules/@walletconnect/ethereum-provider/dist/index.es.js",
       "resources/js/Pages/Dashboard/DashboardIndex/DashboardIndex.jsx",
       "resources/js/Pages/Gateway/GatewayIndex/GatewayIndex.jsx"
     ],
     "css": [
-      "assets/app-BHJwwgMT.css"
+      "assets/app-xbXdhEU6.css"
     ]
   }
 }
