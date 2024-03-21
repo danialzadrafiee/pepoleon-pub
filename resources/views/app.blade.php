@@ -17,7 +17,7 @@
         @inertiaHead
     </head>
     <body class="font-sans  antialiased">
-        <button style="background: green">
+        <button style="background: yellow">
 
             hello
         </button>
