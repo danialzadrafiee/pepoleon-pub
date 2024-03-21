@@ -1,11 +1,120 @@
 {
+  "_MainLayout-BLqrgvR8.js": {
+    "file": "assets/MainLayout-BLqrgvR8.js",
+    "name": "MainLayout",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_events-B7FY5u3_.js": {
+    "file": "assets/events-B7FY5u3_.js",
+    "name": "events",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_index-BA8QldLt.js": {
+    "file": "assets/index-BA8QldLt.js",
+    "name": "index",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "dynamicImports": [
+      "node_modules/@walletconnect/modal-ui/dist/index.js"
+    ]
+  },
+  "_index-BOqGvBVy.js": {
+    "file": "assets/index-BOqGvBVy.js",
+    "name": "index",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_events-B7FY5u3_.js"
+    ]
+  },
+  "node_modules/@walletconnect/ethereum-provider/dist/index.es.js": {
+    "file": "assets/index.es-BMwveNzD.js",
+    "name": "index.es",
+    "src": "node_modules/@walletconnect/ethereum-provider/dist/index.es.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_events-B7FY5u3_.js"
+    ],
+    "dynamicImports": [
+      "_index-BA8QldLt.js"
+    ]
+  },
+  "node_modules/@walletconnect/modal-ui/dist/index.js": {
+    "file": "assets/index-C3P_3dIS.js",
+    "name": "index",
+    "src": "node_modules/@walletconnect/modal-ui/dist/index.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-BA8QldLt.js",
+      "resources/js/app.jsx"
+    ]
+  },
+  "node_modules/@web3modal/siwe/dist/esm/exports/index.js": {
+    "file": "assets/index-DqnTtNq0.js",
+    "name": "index",
+    "src": "node_modules/@web3modal/siwe/dist/esm/exports/index.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "node_modules/viem/_esm/utils/ccip.js": {
+    "file": "assets/ccip-DcBqrs7X.js",
+    "name": "ccip",
+    "src": "node_modules/viem/_esm/utils/ccip.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Dashboard/DashboardIndex/DashboardIndex.jsx": {
+    "file": "assets/DashboardIndex-BPkoYyeg.js",
+    "name": "DashboardIndex",
+    "src": "resources/js/Pages/Dashboard/DashboardIndex/DashboardIndex.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_MainLayout-BLqrgvR8.js"
+    ]
+  },
+  "resources/js/Pages/Gateway/GatewayIndex/GatewayIndex.jsx": {
+    "file": "assets/GatewayIndex-BaGl5ts1.js",
+    "name": "GatewayIndex",
+    "src": "resources/js/Pages/Gateway/GatewayIndex/GatewayIndex.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_MainLayout-BLqrgvR8.js"
+    ],
+    "css": [
+      "assets/GatewayIndex-CPkfPft9.css"
+    ]
+  },
   "resources/js/app.jsx": {
-    "file": "assets/app-hprUWDt2.js",
+    "file": "assets/app-CraWNmOJ.js",
     "name": "app",
     "src": "resources/js/app.jsx",
     "isEntry": true,
+    "dynamicImports": [
+      "node_modules/viem/_esm/utils/ccip.js",
+      "node_modules/@web3modal/siwe/dist/esm/exports/index.js",
+      "node_modules/@web3modal/siwe/dist/esm/exports/index.js",
+      "node_modules/@web3modal/siwe/dist/esm/exports/index.js",
+      "node_modules/@web3modal/siwe/dist/esm/exports/index.js",
+      "_index-BOqGvBVy.js",
+      "node_modules/@walletconnect/ethereum-provider/dist/index.es.js",
+      "resources/js/Pages/Dashboard/DashboardIndex/DashboardIndex.jsx",
+      "resources/js/Pages/Gateway/GatewayIndex/GatewayIndex.jsx"
+    ],
     "css": [
-      "assets/app-B4q9OabX.css"
+      "assets/app-BHJwwgMT.css"
     ]
   }
 }
