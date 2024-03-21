@@ -17,7 +17,10 @@
         @inertiaHead
     </head>
     <body class="font-sans  antialiased">
-       
+        <button style="background: red">
+
+            hello
+        </button>
         @inertia
     </body>
 </html>
