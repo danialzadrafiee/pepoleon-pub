@@ -9,7 +9,7 @@ const Menu = () => {
   return (
     <>
       <div onClick={() => setIsMenuOpen(false)} hidden={!isMenuOpen} className="h-dvh w-screen fixed inset-0 z-10 bg-black/40 cursor-pointer ">
-        <Container onClick={(e) => e.stopPropagation()} className="p-5 cursor-default  w-[25vw] bg-pep-nopat h-full absolute right-0 border-l border-primary-800/40">
+        <Container onClick={(e) => e.stopPropagation()} className="p-5 cursor-default  w-[25vw] lg:w-screen bg-pep-nopat h-full absolute right-0 border-l border-primary-800/40">
           <header>
             <Flex className="justify-end">
               <IconButton buttonClass="bg-black/30">
